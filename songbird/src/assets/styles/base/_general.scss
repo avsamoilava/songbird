@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+}
+
+.body {
+  //background: url(../img/background.jpg) center/cover no-repeat;
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  font-family: Mulish, Verdana, sans-serif;
+  position: relative;
+}
+
+.main {
+  flex: 1 0 auto;
+  background: url(../img/background.jpg) center/cover no-repeat;
+}
+
+._container {
+
+  width: 1200px;
+  padding: 10px;
+  margin: 0 auto;
+  @media (max-width: 1220px) {
+    max-width: 95%;
+  }
+}
+
+ul, 
+h1, 
+h2, 
+h3 {
+  margin: 0;
+  padding: 0;
+}

@@ -1,0 +1,30 @@
+@font-face {
+  font-family: "Lobster";
+  src: url(../fonts/Lobster-Regular.ttf) format("truetype"),
+  url(../fonts/Lobster-Regular.woff) format("woff"),
+  url(../fonts/Lobster-Regular.woff2) format("woff2");
+}
+
+@font-face {
+  font-family: "Mulish";
+  src: url(../fonts/Mulish-Regular.ttf) format("truetype"),
+  url(../fonts/Mulish-Regular.woff) format("woff"),
+  url(../fonts/Mulish-Regular.woff2) format("woff2");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Mulish";
+  src: url(../fonts/Mulish-Medium.ttf) format("truetype"),
+  url(../fonts/Mulish-Medium.woff) format("woff"),
+  url(../fonts/Mulish-Medium.woff2) format("woff2");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Mulish";
+  src: url(../fonts/Mulish-Bold.ttf) format("truetype"),
+  url(../fonts/Mulish-Bold.woff) format("woff"),
+  url(../fonts/Mulish-Bold.woff2) format("woff2");
+  font-weight: 700;
+}

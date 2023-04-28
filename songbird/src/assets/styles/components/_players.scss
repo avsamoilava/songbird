@@ -1,0 +1,91 @@
+.song,
+.player,
+.gallery-player {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+
+  width: 100%;
+  // .song__wrapper
+
+  &__wrapper {
+    flex: 1 0 80%;
+  }
+
+  // .song__play
+
+  &__play {
+    flex: 0 0 10%;
+    margin-right: 10px;
+  }
+
+  // .song__btn
+
+  &__btn {}
+
+  // .song__range
+
+  &__range {
+    width: 100%;
+
+  }
+
+  // .song__time
+
+  &__time {
+    display: flex;
+    justify-content: space-between;
+
+    // .song__time_start
+
+    &_start {}
+
+    // .song__time_end
+
+    &_end {}
+  }
+}
+
+.audio-range {
+  overflow: hidden;
+  -webkit-appearance: none;
+  background-color: $light;
+  border-radius: 8px; cursor: pointer;
+
+  &::-webkit-slider-runnable-track {
+    height: 10px;
+    -webkit-appearance: none;
+    color: $accent1;
+    margin-top: -1px;
+  }
+
+  &::-webkit-slider-thumb {
+    width: 0px;
+    -webkit-appearance: none;
+    box-shadow: -1000px 0 0 1000px $accent1;
+  }
+
+  &::-moz-range-progress {
+    background-color: $accent1;
+  }
+
+  &::-ms-fill-lower {
+    background-image: $accent1;
+  }
+
+}
+
+.volume {
+  display: flex;
+  align-items: center;
+  
+  &__btn {
+    margin-right: 10px;
+
+  }
+
+  &__range {
+    height: 10px;
+  }
+}

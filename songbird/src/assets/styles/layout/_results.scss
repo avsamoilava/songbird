@@ -1,0 +1,44 @@
+.results {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+
+  display: none;
+ // background: rgba(0, 0, 0, 0.527);
+   background: url(../img/background.jpg) center/cover no-repeat;
+
+  &._visible {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   }
+
+  &__content {
+    position: relative;
+    max-width: 500px;
+    padding: 25px;
+    border-radius: 10px;
+    background: $light;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &__close {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: -10%;
+    right: -10%;
+    outline: none;
+    border: none;
+    background: url(../img/icons/close-button.svg) center/cover no-repeat;
+  }
+
+  &__restart {
+    margin-top: 20px;
+  }
+}

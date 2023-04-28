@@ -1,0 +1,47 @@
+.btn {
+  padding: 6px 12px;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  background: $grad;
+  background-size: 300% 100%;
+  color: $light;
+  transition: all 0.6s ease-in;
+
+  &:disabled {
+    background: #000;
+  }
+
+  &:not([disabled]):hover { 
+    cursor: pointer;
+    background-position: 100% 0;
+    transition: all .4s ease-in-out;
+  }
+}
+
+.audio-btn {
+  outline: none;
+  border: none;
+  height: 30px;
+  width: 30px;
+  cursor: pointer;
+  background: url(../img/icons/play.svg) center/contain no-repeat;
+
+  &_pause {
+    background: url(../img/icons/pause.svg) center/contain no-repeat;
+  }
+}
+
+.volume-btn {
+  outline: none;
+  border: none;
+  height: 30px;
+  width: 30px;
+  cursor: pointer;
+  background: url(../img/icons/volume.svg) center/contain no-repeat;
+
+  &_mute {
+    background: url(../img/icons/mute-sound.svg) center/contain no-repeat;
+  }
+}
